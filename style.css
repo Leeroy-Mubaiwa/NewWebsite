@@ -18,6 +18,7 @@ body {
     background-color: white;
     box-shadow: 2px 2px 2px gainsboro;
     visibility: visible;
+    padding: 0 0 20px 0;
 }
 
 .navbar {
@@ -178,7 +179,7 @@ h1 {
         visibility: visible;
         background-color: blue;
         color: white;
-        border-radius: 0;
+        border-radius: 2px;
         padding: 2px;
         width: 100%;
     }
@@ -186,6 +187,8 @@ h1 {
         align-items: center;
         width: 60%;
         margin: auto;
+        border-radius: 5px;
+        margin-top: 10px;
     }
     .image_div {
         width: fit-content;
@@ -209,7 +212,7 @@ h1 {
         width: 100%;
         background-color: blue;
         border: none;
-        border-radius: 0 0 2px 2px;
+        border-radius: 2px;
         padding: 2px;
         color: white;
     }
