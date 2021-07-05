@@ -10,7 +10,7 @@ body {
     margin: 0;
 }
 
-.hide_btn {
+.lowe .hide_btn {
     visibility: hidden;
 }
 
@@ -42,7 +42,8 @@ body {
 }
 
 .welcome_image {
-    width: 80px;
+    width: 40px;
+    margin: 5px 0 0 5px;
 }
 
 .lists {
@@ -67,6 +68,107 @@ body {
     text-decoration: none;
     cursor: pointer;
     margin: 0 10px;
+    transition: 0.5s ease;
+}
+
+.lower_upper {
+    width: fit-content;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.text {
+    margin: 0;
+}
+
+.projects_header {
+    text-align: center;
+}
+
+.numbers_ {
+    display: flex;
+}
+
+.number_actual {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: gray;
+}
+
+.left_num {
+    border-style: dotted;
+    border-width: 0 1px 0 0;
+    padding: 0 10px 0 0
+}
+
+.right_num {
+    border-style: dotted;
+    border-width: 0 0 0 1px;
+    padding: 0 0 0 10px
+}
+
+.left_div {
+    width: fit-content;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.floats {
+    width: fit-content;
+    margin: auto;
+    padding: 0px 10px 20px 10px;
+}
+
+.floats_ {
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.profile_image {
+    width: 50px;
+    margin: 10px;
+}
+
+.button_img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.button_img:hover {
+    width: 50px;
+    transition: 0.5s ease;
+}
+
+.hire_me {
+    background-color: whitesmoke;
+    font-weight: 600;
+    color: blue;
+    border: none;
+    border-radius: 2px;
+    align-items: center;
+    text-align: justify;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hire_me:hover {
+    background-color: white;
+    font-weight: 600;
+    color: blue;
+    border-style: dotted;
+    border-color: blue;
+    border-width: 1px;
+    border-radius: 2px;
+    align-items: center;
+    text-align: justify;
     transition: 0.5s ease;
 }
 
