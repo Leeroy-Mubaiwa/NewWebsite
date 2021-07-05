@@ -73,8 +73,8 @@
     }
     
     .lower_upper {
-        width: fit-content;
         margin: auto;
+        display: flex;
     }
     
     h1 {
@@ -154,7 +154,7 @@
     
     .middle_div {
         background-color: white;
-        width: fit-content;
+        width: 80%;
         border-radius: 5px;
         padding: 10px;
     }
@@ -163,6 +163,26 @@
         font-weight: 600;
         font-size: 13px;
         color: gray;
+        text-align: left;
+    }
+    
+    .data_cell {
+        margin-top: 0px;
+        vertical-align: top;
+    }
+    
+    .h4_div {
+        vertical-align: top;
+    }
+    
+    table {
+        width: 80%;
+    }
+    
+    td {
+        border-style: dotted;
+        border-width: 0 0 1px 0;
+        border-color: gray;
     }
     
     .hire_me {
